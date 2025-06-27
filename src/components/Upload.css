@@ -1,0 +1,73 @@
+.upload_page{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: center
+
+}
+
+.methods{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#upload_title{
+    font-size: 30px;
+    font-weight: 700;
+}
+#upload_desc{
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.usb_sec,.qr_sec{
+    border: 2px dashed grey;
+    width: 40%;
+    height: 80%;
+    margin: 0px 10px 10px 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.i{
+    font-size: 100px;
+    font-weight: 700;
+    color: grey;
+}
+.slice_title{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    }
+.slice_desc{
+    /* border: 1px solid black; */
+    padding-top: 5px;
+}
+
+.slice_form{
+    padding-top: 30px;
+}
+
+.formats{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.format{
+    border: 1px solid #ffa60038;
+    width: 50px;
+    border-radius: 7px;
+}

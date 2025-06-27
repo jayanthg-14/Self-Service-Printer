@@ -1,0 +1,37 @@
+.header{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+    color: rgb(18, 125, 247);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title{
+    font-size: 35px;
+}
+
+.description{
+    font-size: 25px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    height: 50px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav>span{
+    border: 0.1px solid rgba(128, 128, 128, 0.525);
+    width: 180px;
+    height: 35px;
+    padding: 5px;
+    font-weight: 500;
+    color: rgb(78, 77, 77);
+    border-radius: 10px;
+    background-color: rgba(232, 207, 207, 0.502);
+}
