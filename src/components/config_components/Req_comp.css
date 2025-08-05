@@ -1,0 +1,52 @@
+#req_setting {
+    border: 1px solid black;
+    height: 400px;
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px   ;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    max-width: 500px;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+}
+
+#configurations{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#req_setting>*{
+    text-align: left;
+}
+
+#range > label,#print_type>label, #copies>label{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#range, #print_type, #copies{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+#print_type>div,#range>div,#copies>#input{
+    display: flex;
+    width: 200px;
+    gap: 10px;
+    margin-left: 20px;
+}
+input{
+    border-radius: 6px;
+    border: 1px solid grey;
+    font-size: 14px;
+    padding: 4px;
+}
+input:hover{
+    border: 1px solid rgb(96, 93, 93);
+}
