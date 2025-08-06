@@ -1,23 +1,28 @@
 .config_page{
-    height: 500px;
+    height: 600px;
     display: flex;
-    border: 1px solid black;
+    width: auto;
+    /* border: 1px solid black; */
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-start;
+    align-items: left;
+    gap:    50px;
+    padding-top: 40px;
 }
-.config_title{
+#config_title{
     font-size: 30px;
     font-weight: 700;
 }
-.config_desc{
-    font-weight: 200;
+#config_desc{
     font-size: 15px;
+    font-weight: 200;
 }
 
 .configs{
-    height: 70%;
+    height: 75%;
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-direction: row;
 }

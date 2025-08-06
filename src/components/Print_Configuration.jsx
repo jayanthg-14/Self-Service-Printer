@@ -1,4 +1,8 @@
 import './Print_Configuration.css'
+import Doc_comp from "./config_components/Doc_comp.jsx";
+import Cost_comp from "./config_components/Cost_comp.jsx";
+import Req_comp from './config_components/Req_comp.jsx';
+
 const Print_Configuration =()=>{
     return(
         <>
@@ -8,12 +12,10 @@ const Print_Configuration =()=>{
                 <span id='config_desc'>Select your Requirements</span>
             </div>
             <div className="configs">
-                <div className="doc">
-
-                </div>
-                <div className="config">
-                    
-                </div>
+                    <Doc_comp></Doc_comp>
+                    <Req_comp></Req_comp>
+                    <Cost_comp></Cost_comp>
+                
             </div>
             
         </div>

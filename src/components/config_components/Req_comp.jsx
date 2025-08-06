@@ -1,5 +1,14 @@
     import './Req_comp.css';
+    import { useState } from 'react';
     const Req_comp = ()=>{
+        const [num,setNum] = useState(0);
+        let minus=()=>{
+            setNum(num=>num-1);
+        }
+
+        let add=()=>{
+            setNum(num=>num+1);
+        }
         return(
             <>
                 <div id="req_setting">
@@ -34,9 +43,16 @@
 
                     <div id='copies'>
                         <label className="copies" id='label'>Copies:</label>
-                        <input type="number" className="copies" id='input' style={{width:"50px"}}/>
+                        <div id='inputs'>  
+                            <button id='minus' onClick={minus} className='copies'>-</button>
+                            <label id="number" className='copies'>{num}</label>
+                            <button id='plus' onClick={add} className='copies'>+</button>
+                        </div>
                     </div>
 
+                    <div>
+                        <button id='update'>Update</button>
+                    </div>
                 </div>
 
             </>
